@@ -1,8 +1,9 @@
 # react-starter-challenges-revamped
 
-1. Inicializar una nueva app de react con vite.
-2. Instalar las siguiente dependencias:
+1. Cerate a new React application with vite.
+2. Install the following dependencies:
 `mui/material, react-router-dom`
-3. Crear un router en nuestra app.
-4. Añadir rutas para: tic-tac-toe, video y github-clone 
+3. Create and implement a `BrowserRouter`.
+4. Add browser routes for the following projects:
+`tic-tac-toe`, `video` and `github-clone` 
 
