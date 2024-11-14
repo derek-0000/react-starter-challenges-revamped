@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Layout from "./pages/Layout";
+import NavLayout from "./pages/NavLayout";
 import { Tic_tac_toe } from "./pages/Tic_tac_toe";
 import Video from "./pages/Video";
 import Github_clone from "./pages/Github_clone";
@@ -9,7 +9,7 @@ import Home from "./pages/Home";
 function App() {
   return (
     <div>
-      <Layout />
+      <NavLayout />
       <Routes>
         <Route path="/tic_tac_toe" element={<Tic_tac_toe />} />
         <Route path="/video" element={<Video />} />
